@@ -51,11 +51,11 @@ if ($_POST['password'] == $_POST['confirmpassword']);{
 
 ?>
 <link href="//db.onlinewebfonts.com/c/a4e256ed67403c6ad5d43937ed48a77b?family=Core+Sans+N+W01+35+Light" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" href="form.css" type="text/css">
+<link rel="stylesheet" href="css/form.css" type="text/css">
 <div class="body-content">
   <div class="module">
     <h1>Create an account</h1>
-    <form class="form" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
+    <form class="form" action="php/form.php" method="post" enctype="multipart/form-data" autocomplete="off">
       <div class="alert alert-error"><?= $_SESSION['message'] ?></div>
       <input type="text" placeholder="User Name" name="username" required />
       <input type="email" placeholder="Email" name="email" required />
